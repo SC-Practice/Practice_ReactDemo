@@ -18,5 +18,10 @@ namespace ReactDemo.Controllers
         {
             return View();
         }
+
+        public ActionResult IndexEs5AndEs6()
+        {
+            return View();
+        }
     }
 }
