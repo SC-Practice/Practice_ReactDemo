@@ -23,5 +23,10 @@ namespace ReactDemo.Controllers
         {
             return View();
         }
+
+        public ActionResult SyntaxJSX()
+        {
+            return View();
+        }
     }
 }
