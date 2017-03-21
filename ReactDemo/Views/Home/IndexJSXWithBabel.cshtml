@@ -1,0 +1,28 @@
+﻿
+@{
+    ViewBag.Title = "IndexJSXWithBabel";
+}
+
+<!-- include babel-core 5.8.34 js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.34/browser-polyfill.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.34/browser.js"></script>
+
+<!-- inclide React js -->
+<script src="~/Scripts/react/react.js"></script>
+<script src="~/Scripts/react/react-dom.js"></script>
+
+<h2>IndexJSXWithBabel</h2>
+
+<!-- ADd Html & Script -->
+<div id="root">
+    <!-- This DOM is for React inject.-->
+</div>
+
+<!-- use type="text/babel to let babel compiler to ES5 -->
+<script type="text/babel">
+    ReactDOM.render(
+        <h3>Hello, world!</h3>,
+        document.getElementById('root')
+    );
+</script>
+
