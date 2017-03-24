@@ -7,21 +7,31 @@
 
 <div id="root"></div>
 
-
 <script type="text/babel">
     const divStyle = {
         color: 'blue'
-    }
+    }  
 
-    function fullName(user) {
-        return `${user.firstName} ${user.lastName}`; 
-    }
-
-    let user = {
+    const userData = {
         firstName: 'Sean',
         lastName: 'Chen'
     }
 
-    const element = <h3>Hello, { fullName(user) }!</h3>
-    ReactDOM.render(<div style={divStyle}>{element}</div>, document.getElementById('root'));
+    function fullName(user) {
+        return `${user.firstName} ${user.lastName}`;
+    }
+
+    class Message extends React.Component {
+
+        render (props) {
+
+            const { user } = this.props;
+
+            return (<h3>Hello, { fullName(user) }!</h3>);
+
+        }
+    }
+
+    ReactDOM.render(
+    <div style={divStyle}> <Message user={userData} /> </div>, document.getElementById('root'));
 </script>
