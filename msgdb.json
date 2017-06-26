@@ -1,0 +1,142 @@
+[
+{
+MessageType: "acct",
+PageIndex: 0,
+TotalPageCount: 8,
+TotalMessageCount: 99,
+MsgGroups: [
+{
+TabId: "msg-center-acct",
+Id: "1-1",
+IsRead: false,
+InitDateTime: "1498285825842",
+Title: "ACCT1",
+IsChecked: false,
+MsgContent: "this is ACCT1"
+},
+{
+TabId: "msg-center-acct",
+Id: "1-2",
+IsRead: false,
+InitDateTime: "1498285825842",
+Title: "ACCT2",
+IsChecked: false,
+MsgContent: "this is ACCT2"
+},
+{
+TabId: "msg-center-acct",
+Id: "1-3",
+IsRead: false,
+InitDateTime: "1498285825842",
+Title: "ACCT3",
+IsChecked: false,
+MsgContent: "this is ACCT3"
+}
+]
+},
+{
+MessageType: "order",
+PageIndex: 0,
+TotalPageCount: 8,
+TotalMessageCount: 99,
+MsgGroups: [
+{
+TabId: "msg-center-order",
+Id: "2-1",
+IsRead: false,
+InitDateTime: "1498285825842",
+Title: "Order1",
+IsChecked: false,
+MsgContent: "this is Order1"
+},
+{
+TabId: "msg-center-order",
+Id: "2-2",
+IsRead: false,
+InitDateTime: "1498285825842",
+Title: "Order2",
+IsChecked: false,
+MsgContent: "this is Order2"
+},
+{
+TabId: "msg-center-order",
+Id: "2-3",
+IsRead: false,
+InitDateTime: "1498285825842",
+Title: "Order3",
+IsChecked: false,
+MsgContent: "this is Order3"
+}
+]
+},
+{
+MessageType: "seller",
+PageIndex: 0,
+TotalPageCount: 8,
+TotalMessageCount: 99,
+MsgGroups: [
+{
+TabId: "msg-center-seller",
+Id: "3-1",
+IsRead: false,
+InitDateTime: "1498285825842",
+Title: "Seller-1",
+IsChecked: false,
+MsgContent: "this is Seller1"
+},
+{
+TabId: "msg-center-seller",
+Id: "3-2",
+IsRead: false,
+InitDateTime: "1498285825842",
+Title: "Seller-2",
+IsChecked: false,
+MsgContent: "this is Seller1"
+},
+{
+TabId: "msg-center-seller",
+Id: "3-3",
+IsRead: false,
+InitDateTime: "1498285825842",
+Title: "Seller-3",
+IsChecked: false,
+MsgContent: "this is Seller3"
+}
+]
+},
+{
+MessageType: "other",
+PageIndex: 0,
+TotalPageCount: 8,
+TotalMessageCount: 99,
+MsgGroups: [
+{
+TabId: "msg-center-other",
+Id: "1-1",
+IsRead: false,
+InitDateTime: "1498285825842",
+Title: "Other-1",
+IsChecked: false,
+MsgContent: "this is Other-1"
+},
+{
+TabId: "msg-center-other",
+Id: "1-2",
+IsRead: false,
+InitDateTime: "1498285825842",
+Title: "Other-2",
+IsChecked: false,
+MsgContent: "this is Other-2"
+},
+{
+TabId: "msg-center-other",
+Id: "1-3",
+IsRead: false,
+InitDateTime: "1498285825842",
+Title: "Other-3",
+IsChecked: false,
+MsgContent: "this is Other-3"
+}
+]
+}
+]
